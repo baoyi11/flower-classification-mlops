@@ -2,8 +2,10 @@ name: CD Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, develop ]
     tags: [ 'v*' ]
+  pull_request:
+    branches: [ main, develop ]
   release:
     types: [published]
 
