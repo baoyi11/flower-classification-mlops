@@ -1,0 +1,43 @@
+
+#### `CONTRIBUTING.md`
+```markdown
+# 贡献指南
+
+感谢您有兴趣为花卉图像分类项目做贡献！
+
+## 开发流程
+
+1. Fork 本仓库
+2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启 Pull Request
+
+## 代码规范
+
+### Python 代码风格
+- 使用 Black 进行代码格式化
+- 使用 isort 进行导入排序
+- 使用 flake8 进行代码检查
+
+### 提交信息规范
+- feat: 新功能
+- fix: 修复bug
+- docs: 文档更新
+- style: 代码格式调整
+- refactor: 代码重构
+- test: 测试相关
+- chore: 构建过程或辅助工具变动
+
+## 测试要求
+
+- 为新功能添加单元测试
+- 确保所有测试通过
+- 保持或提高代码覆盖率
+
+## Pull Request 流程
+
+1. 确保代码符合规范
+2. 运行所有测试并确保通过
+3. 更新相关文档
+4. 请求代码审查

@@ -1,0 +1,31 @@
+# Data configuration
+data:
+  raw_data_path: "data/raw"
+  processed_data_path: "data/processed"
+  image_size: [128, 128]
+  batch_size: 32
+  num_workers: 4
+  train_split: 0.8
+
+# Model configuration
+model:
+  num_classes: 17
+  learning_rate: 0.001
+  epochs: 10
+  save_path: "models"
+
+# MLflow configuration
+mlflow:
+  tracking_uri: "mlruns"
+  experiment_name: "flower-classification"
+
+# DVC configuration
+dvc:
+  remote_url: null
+  remote_name: "origin"
+
+# Experiments configuration
+experiments:
+  default_model: "simple"
+  enable_mlflow: true
+  enable_tensorboard: true
