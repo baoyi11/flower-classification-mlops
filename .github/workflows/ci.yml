@@ -93,6 +93,8 @@ jobs:
     - name: Create sample data
       run: |
         python scripts/setup_sample_data.py
+    - name: Set PYTHONPATH
+      run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
     
     - name: Run integration tests
       run: |
