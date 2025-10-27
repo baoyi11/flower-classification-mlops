@@ -6,8 +6,11 @@ import numpy as np  # noqa: F401
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import classification_report, confusion_matrix  # noqa: F401
+from sklearn.metrics import (  # noqa: F401
+    accuracy_score,
+    classification_report,
+    confusion_matrix,
+)
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 
